@@ -1,0 +1,187 @@
+body {
+    background-color: #8ff55f; 
+}
+#contenedor {
+	width:960px;
+	border: 1px solid green;
+	margin: 0px auto; /**/
+}
+#top_menu {
+    background-color: #fff;
+    border: 1px solid #c8c8c8;
+    height: 106px;
+	transition: transform 0.3s ease;
+	border-radius:10px;
+}
+#top_menu:hover{
+transform: scale(0.9);}
+
+.lista_menu{
+	float:left;
+	list-style-type: none;
+	width: 16%;
+
+}
+
+
+
+
+
+
+
+
+
+
+header {
+    background-color: #68fa88;
+    border: 1px solid #fdfa25;
+    margin-bottom: 30px;
+	transition: transform 0.3s ease;
+border-radius:10px;	
+}
+header:hover{
+transform: scale(0.95);}
+#logo {
+    height: 112px;
+    background-color: #ffffff;
+    border: 1px solid #4925fd;
+    margin: 10px 10px 20px 10px;
+    width: 292px;
+	transition: transform 0.3s ease;
+	border-radius:10px;
+}
+#logo:hover{
+transform: scale(0.9);}
+
+#link_videos {
+    background-color: #ffffff;
+    border: 1px solid #e3fd25;
+    margin: 10px 40px 20px 10px;
+    width: 228px;
+    height: 111px;
+	transition: transform 0.3s ease;	
+	border-radius:10px;
+}
+
+#link_videos:hover{
+transform: scale(0.9);}
+
+
+
+#video {
+    background-color: #ffffff;
+    border: 1px solid #e3fd25;
+    margin: 10px;
+    width: 422px;
+    height: 250px;
+    float: right;
+	transition: transform 0.3s ease;	
+	border-radius:10px;
+}
+#video:hover{
+transform: scale(0.9);}
+
+
+
+#content {
+	background-color:#f7894b;
+    border: 1px solid black;
+    padding: 15px;
+	border-radius:10px;
+	transition: transform 0.3s ease;
+border-radius:10px;	
+}
+#content:hover{
+transform: scale(0.99);}
+
+#contenido_principal {
+	background-color: #ffffff;
+    width: 100%;
+    height: 1000px;
+    border: 1px solid #1e52f5;
+	border-radius:10px;
+	transition: transform 0.3s ease;
+border-radius:10px;	
+}
+#contenido_principal:hover{
+transform: scale(0.99);}
+
+#publicidad {
+	background-color:#dbdcc9;
+    width: 530px;
+    height: 320px;
+    border: 1px solid #e6f11e;
+    float: left;
+    margin: 15px 0px 15px 40px;
+	transition: transform 0.3s ease;
+border-radius:10px;	
+}
+#publicidad:hover{
+transform: scale(0.9);}
+
+#sidebar {
+	background-color:#dbdcc9;
+    width: 210px;
+    height: 950px;
+    border: 1px solid;
+    float: right;
+    margin: 15px 40px 15px 0px;
+	transition: transform 0.3s ease;
+border-radius:10px;	
+}
+#sidebar:hover{
+transform: scale(0.9);}
+
+
+
+
+#logo{
+border: solid 1px purple;
+height: 112px;
+width: 291px;
+margin: 10px 10px 20px 10px;
+
+}
+
+
+#logo_dpw{
+	height: 111px;
+	border-radius:10px;
+	width: 291px;
+}
+
+#logo_dpw:hover{
+	-moz-transform: scale(0.5);
+	-webkit-transform: scale(0.5);
+}
+
+#pie {
+	width:100%;
+	height: 71px;
+	float: left;
+	margin: 30px;
+	padding: 0px 0px;
+	clear: both;
+	border: 5px solid black;
+	position: relative;
+	border-radius: 8px;
+	background: -moz-linear-gradient(top, #719500 0% #346500 100%);
+	transition: transform 0.3s ease;
+}
+
+#pie:hover{
+transform: scale(0.9); }
+/*
+	footer {
+	background-color:#0be13b;
+    height: 56px;
+    border: 10px solid white;
+    clear: both;
+    padding: 0px 0px;
+	transition: transform 0.3s ease;
+border-radius:10px;	
+}
+footer:hover{
+transform: scale(0.9);}  */
+
+#

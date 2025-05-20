@@ -1,0 +1,149 @@
+#contenedor {
+  width: 960px;
+  border: 1px solid green;
+  margin: 0 auto; /* Centrar el contenedor */
+  background: linear-gradient(to top, #719500 0%, #346500 100%); /* Prefijos innecesarios eliminados y orden corregido */
+}
+
+nav#top_menu {
+  border: 1px solid #fff;
+  height: 126px;
+  background: #c8c8c8;
+  padding: 0 20px 0 10px;
+  margin-bottom: 30px;
+  background: linear-gradient(to top, #c8c8c8 0%, #d0d0d0 50%, #c8c8c8 50%, #d0d0d0 100%); /* Prefijos innecesarios eliminados y orden corregido */
+  border-top: none;
+}
+
+ul#lista_menu { /* Selector corregido a ul#lista_menu para aplicar estilos a la lista */
+  float: left;
+  list-style-type: none;
+  width: 16%;
+  position: relative;
+}
+
+nav#top_menu li a {
+  display: block;
+  padding: 42px 25px 43px;
+  font: normal 18px Bauhaus93Regular, arial;
+  color: #6d9110;
+  text-decoration: none; /* Añadido para quitar la decoración de los enlaces */
+}
+
+nav#top_menu .top-buscar { /* Selector corregido a .top-buscar dentro de nav#top_menu */
+  width: 190px;
+  float: right;
+  padding-top: 32px;
+}
+
+/* Estilos del formulario */
+nav#top_menu .top-buscar #busquedaform { /* Selector corregido */
+  width: 170px;
+  padding: 7px;
+  background: #COCOCO; /* Corrección de color */
+  border: 1px solid #d6d6d5;
+  position: relative;
+}
+
+/* Texto: Buscar... */
+nav#top_menu .top-buscar #s { /* Selector corregido */
+  border: 0 none;
+  background: transparent;
+  color: #888888;
+}
+
+/* Boton Go */
+nav#top_menu .top-buscar #botonGo { /* Selector corregido */
+  width: 40px;
+  height: 28px;
+  position: absolute;
+  right: 2px;
+  top: 2px;
+  border: solid 1px #afafaf;
+  cursor: pointer;
+  font: bold normal 14px Arial, Helvetica, sans-serif;
+  color: #6d9110;
+  background: #eeeeee;
+  border-radius: 4px;
+}
+
+#cabecera {
+  margin-bottom: 30px;
+  border: 1px solid;
+}
+
+#logo { /* Selector corregido */
+  height: 112px;
+  width: 292px;
+  border: 1px solid;
+  float: left; /* Corrección de "letf" a "left" */
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+#link_videos {
+  height: 111px;
+  width: 228px;
+  border: 1px solid;
+  margin: 10px 10px 20px 40px;
+  float: left; /* Añadido float para que esté en la misma línea que #logo si el espacio lo permite */
+}
+
+#video {
+  width: 422px;
+  height: 250px;
+  float: right;
+  border: 1px solid;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+#content {
+  border: 1px solid;
+  margin: 0.15px;
+}
+
+#contenido_principal { /* Selector corregido */
+  width: 100%;
+  height: 1000px;
+  border: 1px solid;
+}
+
+#publicidad {
+  width: 530px;
+  height: 320px;
+  border: 1px solid;
+  float: left;
+  margin-top: 15px;
+  margin-right: 0px;
+  margin-bottom: 15px;
+  margin-left: 40px;
+}
+
+#sidebar {
+  width: 210px;
+  height: 950px;
+  border: 1px solid;
+  float: right;
+  margin-top: 15px;
+  margin-right: 40px;
+  margin-bottom: 15px;
+  margin-left: 0px;
+}
+
+#pie {
+  width: 100%;
+  height: 71px;
+  float: left;
+  margin: 30px 0;
+  padding: 0 0; /* Corrección de la sintaxis del padding */
+  clear: both;
+  border: 1px solid black;
+  position: relative;
+  border-radius: 8px;
+  background: linear-gradient(to top, #719500 0%, #346500 100%); /* Prefijos innecesarios eliminados y orden corregido */
+}
